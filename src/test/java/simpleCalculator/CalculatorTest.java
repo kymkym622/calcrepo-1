@@ -19,5 +19,11 @@ public class CalculatorTest {
 		calc.sub(10, 20);
 		assertEquals(-10, calc.getResult());
 	}
+	@Test
+	public void testmulti(){
+		Calculator calc = new Calculator();
+		calc.multi(2, 3);
+		assertEquals(6,calc.getResult());
+	}
 
 }
